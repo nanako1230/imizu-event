@@ -50,7 +50,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* 会場行 */}
+          {/* 会場行です */}
           <div className="row">
             <div className="left-panel">会場</div>
             <div className="right-panel">
