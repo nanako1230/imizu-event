@@ -1,0 +1,88 @@
+/* メイン画像セクション */
+.main-image-section {
+  position: relative;
+  background-image: url('/img/ofkph1877.jpg');
+  background-size: cover;
+  background-position: top; /* 背景の表示位置を上に設定 */
+  background-attachment: fixed; /* 背景を固定 */
+  display: flex;
+  flex-direction: column; /* 縦に要素を配置 */
+  justify-content: flex-start; /* 上に寄せる */
+  align-items: center;
+  color: white;
+  text-align: center;
+  overflow: hidden; /* 横方向も縦方向もオーバーフローを隠す */
+}
+
+.image-overlay {
+  position: absolute; /* 画像の上に重なるようにする */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* オーバーレイの色 */
+  z-index: 0; /* 他のコンテンツの後ろに配置 */
+}
+
+.content-container {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 50px; /* 上の余白を適切に設定 */
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.event-date {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.catchphrase-container {
+  margin-bottom: 30px;
+}
+
+.catchphrase-text {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.apply-button-container {
+  margin-top: 20px;
+}
+
+.apply-button {
+  font-size: 1rem; /* サイズを調整 */
+  background-color: #fbbf24;
+  color: black;
+  font-weight: bold;
+  padding: 15px 50px; /* ボタンを大きくする */
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.apply-button:hover {
+  background-color: #fcd34d;
+}
+
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2rem;
+  }
+
+  .event-date {
+    font-size: 1.2rem;
+  }
+
+  .catchphrase-text {
+    font-size: 1rem;
+  }
+}

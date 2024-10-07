@@ -1,0 +1,43 @@
+.access-info {
+  max-width: 800px; /* 最大幅を設定 */
+  margin: 2rem auto; /* 中央寄せ */
+  padding: 20px; /* パディングを追加 */
+  font-family: Arial, sans-serif; /* フォント設定 */
+  color: #333; /* 文字色の設定 */
+  background-color: #f9f9f9; /* 背景色 */
+  border-radius: 8px; /* 角を丸める */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 薄い影を付ける */
+}
+
+.access-info h2 {
+  text-align: center; /* 見出しを中央寄せ */
+  font-size: 1.8rem; /* 見出しのサイズ */
+  margin-bottom: 15px; /* 下部マージン */
+}
+
+.access-info p {
+  text-align: center; /* 段落を中央寄せ */
+  font-size: 1rem; /* 段落のフォントサイズ */
+  margin: 5px 0; /* 上下のマージン */
+}
+
+.map-container {
+  margin-top: 20px; /* マップの上部マージン */
+  border: 1px solid #ddd; /* マップの枠線 */
+  border-radius: 8px; /* 角を丸める */
+  overflow: hidden; /* 枠線の内側のコンテンツがはみ出さないようにする */
+}
+
+@media (max-width: 600px) {
+  .access-info {
+    padding: 10px; /* スマホサイズでパディングを少し減らす */
+  }
+
+  .access-info h2 {
+    font-size: 1.5rem; /* スマホ用に見出しのサイズを小さく */
+  }
+
+  .access-info p {
+    font-size: 0.9rem; /* スマホ用に段落のフォントサイズを小さく */
+  }
+}

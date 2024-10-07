@@ -1,0 +1,149 @@
+/* イベントページ全体のスタイル */
+.event-page {
+  font-family: Arial, sans-serif;
+  /* ページ全体の余白 */
+}
+
+/* セクションのスタイル */
+.section {
+  border: 1px solid #8bc34a;
+  /* 緑色の枠線 */
+  border-radius: 10px;
+  /* 角を丸くする */
+  overflow: hidden;
+  /* 内容がはみ出ないようにする */
+}
+
+/* 各項目の行 */
+.row {
+  display: flex;
+  /* 横並び */
+  border-bottom: 1px dotted #ccc;
+  /* 各項目を点線で区切る */
+}
+
+/* 最後の行は区切り線を外す */
+.row:last-child {
+  border-bottom: none;
+  /* 最後の行の下線を非表示 */
+}
+
+/* タイトル部分（左側） */
+.left-panel {
+  flex: 0 0 25%;
+  /* 幅を25%に固定 */
+  background-color: #e8f5e9;
+  /* 薄い緑色の背景 */
+  padding: 15px;
+  /* 内側に余白を追加 */
+  font-weight: bold;
+  /* 太字 */
+  color: #000000;
+  /* 文字色 */
+}
+
+/* 内容部分（右側） */
+.right-panel {
+  /* 左の余白 */
+  flex: 1;
+  /* 残りのスペースを占める */
+  padding: 15px;
+  /* 内側に余白を追加 */
+  background-color: #fff;
+  /* 白色の背景 */
+}
+
+/* 右側の内容のパラグラフスタイル */
+.right-panel p {
+  margin: 5px 0;
+  /* 各段落の間隔 */
+}
+
+/* セクションコンテンツ用のスタイル */
+.section-content {
+  margin-top: 10px;
+  /* 上の余白 */
+  font-size: 0.9em;
+  /* フォントサイズ */
+}
+
+/* リンクのスタイル */
+.section-content1 {
+  color: #4caf50;
+  /* 緑色 */
+  text-decoration: none;
+  /* 下線をなくす */
+  font-weight: bold;
+  /* 太字 */
+}
+
+.section-content1:hover {
+  text-decoration: underline;
+  /* ホバー時に下線 */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  /* 画像を中央に配置 */
+  margin-top: 10px;
+  /* 上部にマージンを追加 */
+}
+
+.custom-image {
+  width: 100px;
+  /* 画像の幅を100pxに設定（必要に応じて調整） */
+  height: auto;
+  /* アスペクト比を保つ */
+  margin: 0 5px;
+  /* 画像間のスペースを調整 */
+}
+
+/* スマホとiPad用のスタイル */
+@media (max-width: 600px) {
+  .event-page {
+    margin: 1rem;
+    /* ページ全体の余白 */
+  }
+
+  .row {
+    flex-direction: column;
+    /* 縦並びに変更 */
+  }
+
+  .left-panel,
+  .right-panel {
+    flex: 1 1 auto;
+    /* 両側の幅を自動調整 */
+  }
+
+  .left-panel {
+    border-bottom: 1px dotted #ccc;
+    /* 左側の下に点線を追加 */
+  }
+}
+
+/* iPad用のスタイル */
+@media (min-width: 601px) and (max-width: 768px) {
+  .event-page {
+    margin: 2rem;
+    /* ページ全体の余白 */
+  }
+
+  .left-panel {
+    flex: 0 0 40%;
+    /* 左側の幅を40%に設定 */
+  }
+
+  .right-panel {
+    margin-left: 2rem;
+    /* 左の余白を減らす */
+  }
+}
+
+@media (min-width: 769px) {
+  .event-page {
+    margin: 4rem;
+    /* ページ全体の余白 */
+  }
+}
