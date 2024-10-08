@@ -54,7 +54,7 @@ export default function Home() {
           <div className="row">
             <div className="left-panel">会場</div>
             <div className="right-panel">
-              射水市 観光交流センター クロスベイ新湊<br />
+              射水市 観光交流センター クロスベイ新湊（東側入り口付近）<br />
               (〒934-0011 富山県射水市本町２丁目１０−３０)<br />
               <a href="#access-info" className="section-content1">アクセスはこちら</a>
             </div>
