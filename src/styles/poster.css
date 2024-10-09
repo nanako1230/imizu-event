@@ -1,32 +1,52 @@
 /* styles/poster.css */
 
 .poster-page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    background-color: #f9f9f9; /* 背景色 */
-  }
-  
-  .poster-page h1 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #333; /* 見出しの色 */
-  }
-  
-  .poster-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    margin: 0 auto; /* 中央寄せ */
-  }
-  
+  margin: auto;
+  width: 80%;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  /* 背景色 */
+}
+
+.poster-page h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+  /* 見出しの色 */
+}
+
+.poster-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  /* 中央寄せ */
+}
+
+.poster-image {
+  max-width: 50%;
+  height: auto;
+  /* 自動的に比率を保つ */
+  border: 2px solid #ccc;
+  /* 画像の周りに枠線 */
+  border-radius: 8px;
+  /* 角を丸くする */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* 影をつける */
+}
+
+/* スマホ画面向けのスタイル */
+@media (max-width: 768px) {
   .poster-image {
-    max-width: 50%;
-    height: auto; /* 自動的に比率を保つ */
-    border: 2px solid #ccc; /* 画像の周りに枠線 */
-    border-radius: 8px; /* 角を丸くする */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 影をつける */
+    margin-top: 8rem;
+    max-width: 100%;
+    /* スマホ画面では画像を大きく表示 */
   }
-  
+
+  .poster-page h1 {
+    font-size: 1.5rem;
+    /* 見出しを少し小さく */
+  }
+}
