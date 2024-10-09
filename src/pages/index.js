@@ -41,7 +41,7 @@ export default function Home() {
               2024年10月26日 (土) 9:30～13:00<br />
               <div className="section-content">
                 <p>受付開始: 9:30~9:45</p>
-                <p>企画説明: 9:45~10:00</p>
+                <p>企画説明: 随時説明</p>
                 <p>散策開始: 10:00~</p>
                 <p>公式ラインへの写真アップロード: 10:00~13:00</p>
                 <p>自由解散</p>
@@ -59,6 +59,22 @@ export default function Home() {
               <a href="#access-info" className="section-content1">アクセスはこちら</a>
             </div>
           </div>
+          <div className="row">
+            <div className="left-panel">特典</div>
+            <div className="right-panel">
+              <div className="section-content">
+                <p>当日の歩数が8,000歩を達成した参加者で「楽天ポイント」5,000を山分け！</p>
+                <p>素敵な魅力スポットを発見した参加者にはギフトカードも当たる！</p>
+                <p>　　　</p>
+                <p>楽天×射水市共同イベントを開催します</p>
+                <p>!!ミッション達成で「楽天ポイント」10万山分けキャンペーン!!</p>
+                <p>詳しくは下のポスターをご覧ください。</p>
+                <a href="/PosterPage" target="_blank" className="section-content1">
+                  ポスターはこちらから
+                </a>
+              </div>
+            </div>
+          </div>
 
           {/* 参加方法行 */}
           <div className="row">
@@ -68,11 +84,9 @@ export default function Home() {
               <p>フォームズで応募をお願いします。</p>
               <p>持ち物: スマートフォン</p>
               <p>クロスベイ新湊付近を歩き射水市の魅力を探索！</p>
-              <p>当日の歩数が8,000歩を達成した参加者で「楽天ポイント」5,000を山分け！</p>
               <p>スポットの探索や写真投稿でさらにギフトカードが得られます。</p>
-
               <a href="/PosterPage" target="_blank" className="section-content1">
-                ポスターはこちらから
+                射水市魅力発見walkのポスターはこちらから
               </a>
               <p>参加希望の場合は下記の公式ラインと「楽天ヘルスケア」アプリを使用しますので、ご登録ください。</p>
               <div className="image-container">
