@@ -65,6 +65,10 @@ export default function Home() {
               <div className="section-content">
                 <p>当日の歩数が8,000歩を達成した参加者で「楽天ポイント」5,000を山分け！</p>
                 <p>素敵な魅力スポットを発見した参加者にはギフトカードも当たる！</p>
+                <p>スポットの探索や写真投稿でさらにギフトカードが得られます。</p>
+                <a href="/PosterPage" target="_blank" className="section-content1">
+                  射水市魅力発見walkのポスターはこちらから
+                </a>
                 <p>　　　</p>
                 <p>楽天×射水市共同イベントを開催します</p>
                 <p>ミッション達成で「楽天ポイント」10万山分けキャンペーン!!</p>
@@ -83,11 +87,6 @@ export default function Home() {
               無料 (事前登録制／当日も可)<br />
               <p>フォームズで応募をお願いします。</p>
               <p>持ち物: スマートフォン</p>
-              <p>クロスベイ新湊付近を歩き射水市の魅力を探索！</p>
-              <p>スポットの探索や写真投稿でさらにギフトカードが得られます。</p>
-              <a href="/PosterPage" target="_blank" className="section-content1">
-                射水市魅力発見walkのポスターはこちらから
-              </a>
               <p>参加希望の場合は下記の公式ラインと「楽天ヘルスケア」アプリを使用しますので、ご登録ください。</p>
               <div className="image-container">
                 <a href="https://lin.ee/Ih3njBt">
