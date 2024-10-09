@@ -161,6 +161,7 @@
 /* スマホサイズでの調整 */
 @media (max-width: 600px) {
   .footer {
+    margin-top: 12rem;
     padding: 8px;
     /* スマホ用にパディングをさらに減らす */
     font-size: 0.65rem;
