@@ -74,7 +74,7 @@ export default function Home() {
                 <p>ミッション達成で「楽天ポイント」10万山分けキャンペーン!!</p>
                 <p>詳しくは下のポスターをご覧ください。</p>
                 <a href="/PosterPage" target="_blank" className="section-content1">
-                  ポスターはこちらから
+                  楽天×射水市共同のイベントポスターはこちらから
                 </a>
               </div>
             </div>
