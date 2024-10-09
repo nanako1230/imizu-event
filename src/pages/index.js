@@ -77,7 +77,9 @@ export default function Home() {
               <p>参加希望の場合は下記の公式ラインと「楽天ヘルスケア」アプリを使用しますので、ご登録ください。</p>
               <div className="image-container">
                 <img className="custom-image" src="img/19576053-bb41-4d85-852d-f7f7895fa795.jpg" alt="Image 1" />
-                <img className="custom-image" src="img/app-dl-qr.png" alt="QR Code" />
+                <a href="https://healthcare.rakuten.co.jp/">
+                  <img className="custom-image" src="img/app-dl-qr.png" alt="QR Code" />
+                </a>
               </div>
             </div>
           </div>
