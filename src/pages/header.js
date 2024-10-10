@@ -5,7 +5,7 @@ export default function Header() {
       <div className="container">
         {/* ヘッダー */}
         <header className="header">
-          <h1 className="title">| 射水市魅力発見walk</h1>
+          <h1 className="title">| 射水市魅力発掘walk</h1>
           <nav className="nav">
             <a href="https://www.city.imizu.toyama.jp/" className="icon-btn" target="_blank">
               <img src="\img\OIP.jpg" alt="Icon 1" />
