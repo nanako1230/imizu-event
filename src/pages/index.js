@@ -88,6 +88,7 @@ export default function Home() {
               <p>フォームズで応募をお願いします。</p>
               <p>持ち物: スマートフォン</p>
               <p>参加希望の場合は下記の公式ラインと「楽天ヘルスケア」アプリを使用しますので、ご登録ください。</p>
+              <p>また、「楽天ヘルスケア」アプリ内で射水市×楽天ヘルスケア連携企画へのエントリーをお願いいたします。</p>
               <div className="image-container">
                 <a href="https://lin.ee/Ih3njBt">
                   <img className="custom-image" src="img/19576053-bb41-4d85-852d-f7f7895fa795.jpg" alt="Image 1" />
