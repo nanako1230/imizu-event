@@ -73,7 +73,7 @@ export default function Home() {
                 <p>楽天×射水市共同イベントを開催します</p>
                 <p>ミッション達成で「楽天ポイント」10万山分けキャンペーン!!</p>
                 <p>詳しくは下のポスターをご覧ください。</p>
-                <a href="/PosterPage" target="_blank" className="section-content1">
+                <a href="/PosterPage2" target="_blank" className="section-content1">
                   楽天×射水市共同のイベントポスターはこちらから
                 </a>
               </div>
