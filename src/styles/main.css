@@ -3,25 +3,33 @@
   position: relative;
   background-image: url('/img/ofkph1877.jpg');
   background-size: cover;
-  background-position: top; /* 背景の表示位置を上に設定 */
-  background-attachment: fixed; /* 背景を固定 */
+  background-position: top;
+  /* 背景の表示位置を上に設定 */
+  background-attachment: fixed;
+  /* 背景を固定 */
   display: flex;
-  flex-direction: column; /* 縦に要素を配置 */
-  justify-content: flex-start; /* 上に寄せる */
+  flex-direction: column;
+  /* 縦に要素を配置 */
+  justify-content: flex-start;
+  /* 上に寄せる */
   align-items: center;
   color: white;
   text-align: center;
-  overflow: hidden; /* 横方向も縦方向もオーバーフローを隠す */
+  overflow: hidden;
+  /* 横方向も縦方向もオーバーフローを隠す */
 }
 
 .image-overlay {
-  position: absolute; /* 画像の上に重なるようにする */
+  position: absolute;
+  /* 画像の上に重なるようにする */
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5); /* オーバーレイの色 */
-  z-index: 0; /* 他のコンテンツの後ろに配置 */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* オーバーレイの色 */
+  z-index: 0;
+  /* 他のコンテンツの後ろに配置 */
 }
 
 .content-container {
@@ -29,7 +37,8 @@
   z-index: 1;
   max-width: 800px;
   padding: 20px;
-  margin-top: 50px; /* 上の余白を適切に設定 */
+  margin-top: 50px;
+  /* 上の余白を適切に設定 */
 }
 
 .main-title {
@@ -58,11 +67,13 @@
 }
 
 .apply-button {
-  font-size: 1rem; /* サイズを調整 */
-  background-color: #fbbf24;
+  font-size: 1rem;
+  /* サイズを調整 */
+  background-color: #cfcfcf;
   color: black;
   font-weight: bold;
-  padding: 15px 50px; /* ボタンを大きくする */
+  padding: 15px 50px;
+  /* ボタンを大きくする */
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -70,7 +81,7 @@
 }
 
 .apply-button:hover {
-  background-color: #fcd34d;
+  background-color: #515151;
 }
 
 @media (max-width: 768px) {
