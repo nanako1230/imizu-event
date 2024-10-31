@@ -25,7 +25,7 @@ export default function Home() {
           {/* 応募ボタン */}
           <div className="apply-button-container">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScTL-7NyyqRfdmbbBuk6dMWRR4SPJN7zhaN4DMB_tHqUHHX6A/viewform?usp=sf_link">
-              <button className="apply-button">応募する</button>
+              <button className="apply-button">終了しました</button>
             </a>
           </div>
         </div>
