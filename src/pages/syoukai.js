@@ -7,7 +7,7 @@ export default function PosterPage() {
 
   return (
     <div className="container1">
-      <h1>完成したオリジナルマップ</h1>
+      {/* <h1>完成したオリジナルマップ</h1> */}
       <div className="map-container">
         <iframe
           src="https://www.google.com/maps/d/u/0/embed?mid=1EFcvCLbwxj_sRakrPbVhSOgCu5sR7t0&z=14"
@@ -22,9 +22,9 @@ export default function PosterPage() {
           loading="lazy"
         ></iframe>
       </div>
-      <button onClick={handleGoBack} className="back-button">
+      {/* <button onClick={handleGoBack} className="back-button">
         戻る
-      </button>
+      </button> */}
     </div>
   );
 }
