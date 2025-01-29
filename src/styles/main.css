@@ -67,6 +67,12 @@
   color: rgb(253, 254, 255);
 }
 
+.apply-button-container2 {
+  margin-top: 20px;
+  color: rgb(255, 251, 0);
+  font-size: large;
+}
+
 .apply-button {
   font-size: 1rem;
   /* サイズを調整 */
