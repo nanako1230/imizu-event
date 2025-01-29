@@ -1,3 +1,8 @@
+.none {
+  text-decoration: none;
+  color: #000000;
+}
+
 /* 共通スタイル */
 .header {
   position: fixed;
@@ -11,6 +16,7 @@
   align-items: center;
   padding: 10px 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding-right: 20px;
 }
 
 .title {
@@ -23,6 +29,7 @@
   display: flex;
   align-items: center;
   gap: 16px;
+  margin-right: 2.5rem;
 }
 
 .icon-btn {

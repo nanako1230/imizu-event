@@ -64,12 +64,13 @@
 
 .apply-button-container {
   margin-top: 20px;
+  color: rgb(253, 254, 255);
 }
 
 .apply-button {
   font-size: 1rem;
   /* サイズを調整 */
-  background-color: #cfcfcf;
+  background-color: #7c7c7c;
   color: black;
   font-weight: bold;
   padding: 15px 50px;

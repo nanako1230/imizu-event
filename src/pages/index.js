@@ -21,7 +21,7 @@ export default function Home() {
             <p className="catchphrase-text">!!歩いて射水市の魅力を発見しよう!!</p>
             <p className="catchphrase-text">写真を撮影してオリジナルマップを作成</p>
           </div>
-
+          <a href="/syoukai" className="apply-button-container">完成したマップはこちらから</a>
           {/* 応募ボタン */}
           <div className="apply-button-container">
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScTL-7NyyqRfdmbbBuk6dMWRR4SPJN7zhaN4DMB_tHqUHHX6A/viewform?usp=sf_link">
